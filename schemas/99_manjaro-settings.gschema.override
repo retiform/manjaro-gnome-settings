@@ -18,6 +18,7 @@ button-layout='appmenu:minimize,maximize,close'
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
+natural-scroll=false
 
 [org.gnome.shell]
 always-show-log-out=true

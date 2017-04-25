@@ -15,14 +15,16 @@ monospace-font-name='Monospace 11'
 [org.gnome.desktop.wm.preferences]
 titlebar-uses-system-font=false
 button-layout='appmenu:minimize,maximize,close'
+focus-mode='sloppy'
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
+natural-scroll=false
 
 [org.gnome.shell]
 always-show-log-out=true
-favorite-apps=['pamac-manager.desktop', 'firefox.desktop', 'empathy.desktop', 'org.gnome.Nautilus.desktop', 'gnome-terminal.desktop', 'org.gnome.gedit.desktop', 'hexchat.desktop', 'org.gnome.Screenshot.desktop', 'ca.desrt.dconf-editor.desktop']
-enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'gnomenu@panacier.gmail.com', 'openweather-extension@jenslody.de', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'TaskBar@zpydr']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'empathy.desktop', 'hexchat.desktop', 'org.gnome.Screenshot.desktop', 'ca.desrt.dconf-editor.desktop']
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'gnomenu@panacier.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'TopIcons@phocean.net']
 
 [org.gnome.shell.extensions.user-theme]
 name="Arc-Maia-Dark"
@@ -30,13 +32,24 @@ name="Arc-Maia-Dark"
 [org.gnome.shell.extensions.dash-to-dock]
 background-opacity=0.90000000000000002220
 custom-theme-running-dots=true
+custom-theme-shrink=true
+apply-custom-theme=true
 dash-max-icon-size=32
+dock-fixed=true 
+extend-height=true
+show-apps-at-top=true
+
+[org.gnome.shell.extensions.gnomenu]
+hide-panel-view=true
+hide-panel-apps=true
+disable-panel-menu-hotspot=true
+
 
 [org.gnome.Terminal.Legacy.Profile]
 allow-bold=true
 background-color='rgb(69,70,73)'
 use-theme-colors=false
-font='Droid Sans Mono Regular 11'
+font='xos4 Terminus Regular 12'
 foreground-color='rgb(220,233,235)'
 palette=['rgb(0,0,0)', 'rgb(170,0,0)', 'rgb(0,170,0)', 'rgb(170,85,0)', 'rgb(0,0,170)', 'rgb(170,0,170)', 'rgb(0,170,170)', 'rgb(170,170,170)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(85,85,255)', 'rgb(255,85,255)', 'rgb(85,255,255)', 'rgb(255,255,255)']
 rewrap-on-resize=true
@@ -44,6 +57,14 @@ visible-name='manjaro'
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small'
+
+[org.gnome.gedit.preferences.editor]
+auto-indent=true
+editor-font='xos4 Terminus 12'
+scheme='solarized-dark'
+tabs-size=4
+use-default-font=false
+
 
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'

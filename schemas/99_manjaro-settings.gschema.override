@@ -23,8 +23,8 @@ natural-scroll=false
 
 [org.gnome.shell]
 always-show-log-out=true
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'empathy.desktop', 'hexchat.desktop', 'org.gnome.Screenshot.desktop', 'ca.desrt.dconf-editor.desktop']
-enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'gnomenu@panacier.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'TopIcons@phocean.net']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'pamac-manager.desktop', 'empathy.desktop', 'hexchat.desktop', 'org.gnome.Screenshot.desktop']
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'gnomenu@panacier.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'TopIcons@phocean.net', 'manjaro-update@Chrysostom']
 
 [org.gnome.shell.extensions.user-theme]
 name="Arc-Maia-Dark"
@@ -38,12 +38,6 @@ dash-max-icon-size=32
 dock-fixed=true 
 extend-height=true
 show-apps-at-top=true
-
-[org.gnome.shell.extensions.gnomenu]
-hide-panel-view=true
-hide-panel-apps=true
-disable-panel-menu-hotspot=true
-
 
 [org.gnome.Terminal.Legacy.Profile]
 allow-bold=true
@@ -64,7 +58,6 @@ editor-font='xos4 Terminus 12'
 scheme='solarized-dark'
 tabs-size=4
 use-default-font=false
-
 
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'

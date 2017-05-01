@@ -37,7 +37,7 @@ apply-custom-theme=true
 dash-max-icon-size=32
 dock-fixed=true 
 extend-height=true
-show-apps-at-top=true
+show-apps-at-top=false
 
 [org.gnome.Terminal.Legacy.Profile]
 allow-bold=true

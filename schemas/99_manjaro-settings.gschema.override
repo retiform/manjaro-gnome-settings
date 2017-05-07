@@ -1,8 +1,8 @@
 [org.freedesktop.Tracker.Extract]
-sched-idle=always
+sched-idle='always'
 
 [org.freedesktop.Tracker.Miner.Files]
-sched-idle=always
+sched-idle='always'
 index-on-battery=false
 
 [org.gnome.desktop.background]

@@ -1,0 +1,10 @@
+[org.gnome.shell.extensions.dash-to-dock]
+background-opacity=0.90000000000000002220
+custom-theme-running-dots=true
+custom-theme-shrink=true
+apply-custom-theme=true
+dash-max-icon-size=32
+dock-fixed=true 
+extend-height=true
+show-apps-at-top=false
+

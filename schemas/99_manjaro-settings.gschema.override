@@ -1,6 +1,16 @@
+[org.freedesktop.Tracker.Extract]
+sched-idle=always
+
+[org.freedesktop.Tracker.Miner.Files]
+sched-idle=always
+index-on-battery=false
+
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/manjarowall17_07.jpg'
 show-desktop-icons=false
+
+[org.gnome.settings-daemon.plugins.color]
+night-light-enabled=true
 
 [org.gnome.desktop.interface]
 cursor-theme='Breeze'
@@ -28,16 +38,6 @@ enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'gnomenu@panacier.gmail.com
 
 [org.gnome.shell.extensions.user-theme]
 name="Arc-Maia-Dark"
-
-[org.gnome.shell.extensions.dash-to-dock]
-background-opacity=0.90000000000000002220
-custom-theme-running-dots=true
-custom-theme-shrink=true
-apply-custom-theme=true
-dash-max-icon-size=32
-dock-fixed=true 
-extend-height=true
-show-apps-at-top=false
 
 [org.gnome.Terminal.Legacy.Profile]
 allow-bold=true

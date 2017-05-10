@@ -1,0 +1,9 @@
+#/bin/sh
+
+#Run Manjaro Hello and when closed run Gnome Welcome
+
+manjaro-hello
+
+sleep 1
+
+/usr/lib/gnome-initial-setup/gnome-initial-setup --existing-user

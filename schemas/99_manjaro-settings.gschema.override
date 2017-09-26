@@ -18,7 +18,7 @@ document-font-name='Sans 11'
 enable-animations=true
 font-name='Noto Sans 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Arc-Maia-Darker'
+gtk-theme='Adapta-Nokto-Maia'
 icon-theme='Arc-Maia'
 monospace-font-name='Hack 11'
 
@@ -37,7 +37,7 @@ favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.gedit
 enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'gnomenu@panacier.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'TopIcons@phocean.net', 'manjaro-update@Chrysostomus']
 
 [org.gnome.shell.extensions.user-theme]
-name="Arc-Maia-Dark"
+name="Adapta-Nokto-Maia"
 
 [org.gnome.Terminal.Legacy.Profile]
 allow-bold=true

@@ -1,4 +1,4 @@
-# This script remove the annoing issue of the double shell:
+# This script removes the annoing issue of the double shell:
 # one is your user and other is gdm user ( zombie shell )
 # see here for more info
 # https://bugzilla.gnome.org/show_bug.cgi?id=782832
